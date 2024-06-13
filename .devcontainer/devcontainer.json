@@ -1,5 +1,5 @@
 {
-	"name": "alpine-hibiscus-env",
+	"name": "alpine-server-env",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},

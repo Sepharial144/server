@@ -1,7 +1,7 @@
-CMakeFiles/server.dir/source/server/NetClient.cpp.o: \
- /workspaces/server/source/server/NetClient.cpp \
+CMakeFiles/server.dir/source/server/ServerManager.cpp.o: \
+ /workspaces/server/source/server/ServerManager.cpp \
  /usr/include/stdc-predef.h \
- /workspaces/server/source/server/NetClient.hpp \
+ /workspaces/server/source/server/ServerManager.hpp \
  /workspaces/server/source/server/IfcClient.hpp \
  /workspaces/server/source/buffer/IfcBuffer.hpp \
  /usr/include/c++/13.2.1/string \
@@ -146,6 +146,7 @@ CMakeFiles/server.dir/source/server/NetClient.cpp.o: \
  /usr/include/c++/13.2.1/bits/ranges_algobase.h \
  /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/13.2.1/pstl/execution_defs.h \
+ /workspaces/server/source/server/NetClient.hpp \
  /workspaces/server/source/server/QueuedClient.hpp \
  /usr/include/c++/13.2.1/deque /usr/include/c++/13.2.1/bits/stl_deque.h \
  /usr/include/c++/13.2.1/bits/deque.tcc /usr/include/c++/13.2.1/mutex \
@@ -164,16 +165,10 @@ CMakeFiles/server.dir/source/server/NetClient.cpp.o: \
  /usr/include/c++/13.2.1/bits/this_thread_sleep.h /usr/include/sys/time.h \
  /usr/include/fortify/sys/select.h /usr/include/sys/select.h \
  /usr/include/semaphore.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
- /usr/include/c++/13.2.1/chrono /usr/include/c++/13.2.1/sstream \
- /usr/include/c++/13.2.1/bits/sstream.tcc \
- /usr/include/c++/13.2.1/bits/chrono_io.h /usr/include/c++/13.2.1/iomanip \
- /usr/include/c++/13.2.1/locale \
- /usr/include/c++/13.2.1/bits/locale_facets_nonio.h \
- /usr/include/c++/13.2.1/x86_64-alpine-linux-musl/bits/time_members.h \
- /usr/include/c++/13.2.1/x86_64-alpine-linux-musl/bits/messages_members.h \
- /usr/include/c++/13.2.1/bits/codecvt.h \
- /usr/include/c++/13.2.1/bits/locale_facets_nonio.tcc \
- /usr/include/c++/13.2.1/bits/locale_conv.h \
- /usr/include/c++/13.2.1/bits/quoted_string.h \
- /usr/include/c++/13.2.1/format /usr/include/c++/13.2.1/charconv \
- /usr/include/c++/13.2.1/span /usr/include/c++/13.2.1/variant
+ /usr/include/c++/13.2.1/fstream /usr/include/c++/13.2.1/bits/codecvt.h \
+ /usr/include/c++/13.2.1/x86_64-alpine-linux-musl/bits/basic_file.h \
+ /usr/include/c++/13.2.1/x86_64-alpine-linux-musl/bits/c++io.h \
+ /usr/include/c++/13.2.1/bits/fstream.tcc /usr/include/c++/13.2.1/map \
+ /usr/include/c++/13.2.1/bits/stl_tree.h \
+ /usr/include/c++/13.2.1/bits/stl_map.h \
+ /usr/include/c++/13.2.1/bits/stl_multimap.h

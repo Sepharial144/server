@@ -69,66 +69,38 @@ include CMakeFiles/server.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/server.dir/flags.make
 
-CMakeFiles/server.dir/source/IfcBuffer.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/source/IfcBuffer.cpp.o: /workspaces/server/source/IfcBuffer.cpp
-CMakeFiles/server.dir/source/IfcBuffer.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/source/IfcBuffer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/IfcBuffer.cpp.o -MF CMakeFiles/server.dir/source/IfcBuffer.cpp.o.d -o CMakeFiles/server.dir/source/IfcBuffer.cpp.o -c /workspaces/server/source/IfcBuffer.cpp
+CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o: /workspaces/server/source/buffer/IfcBuffer.cpp
+CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o -MF CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o.d -o CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o -c /workspaces/server/source/buffer/IfcBuffer.cpp
 
-CMakeFiles/server.dir/source/IfcBuffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/IfcBuffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/IfcBuffer.cpp > CMakeFiles/server.dir/source/IfcBuffer.cpp.i
+CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/buffer/IfcBuffer.cpp > CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.i
 
-CMakeFiles/server.dir/source/IfcBuffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/IfcBuffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/IfcBuffer.cpp -o CMakeFiles/server.dir/source/IfcBuffer.cpp.s
+CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/buffer/IfcBuffer.cpp -o CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.s
 
-CMakeFiles/server.dir/source/IfcStorage.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/source/IfcStorage.cpp.o: /workspaces/server/source/IfcStorage.cpp
-CMakeFiles/server.dir/source/IfcStorage.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/source/IfcStorage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/IfcStorage.cpp.o -MF CMakeFiles/server.dir/source/IfcStorage.cpp.o.d -o CMakeFiles/server.dir/source/IfcStorage.cpp.o -c /workspaces/server/source/IfcStorage.cpp
+CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o: /workspaces/server/source/buffer/SimpleMemory.cpp
+CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o -MF CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o.d -o CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o -c /workspaces/server/source/buffer/SimpleMemory.cpp
 
-CMakeFiles/server.dir/source/IfcStorage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/IfcStorage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/IfcStorage.cpp > CMakeFiles/server.dir/source/IfcStorage.cpp.i
+CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/buffer/SimpleMemory.cpp > CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.i
 
-CMakeFiles/server.dir/source/IfcStorage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/IfcStorage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/IfcStorage.cpp -o CMakeFiles/server.dir/source/IfcStorage.cpp.s
-
-CMakeFiles/server.dir/source/SharedMemory.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/source/SharedMemory.cpp.o: /workspaces/server/source/SharedMemory.cpp
-CMakeFiles/server.dir/source/SharedMemory.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/source/SharedMemory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/SharedMemory.cpp.o -MF CMakeFiles/server.dir/source/SharedMemory.cpp.o.d -o CMakeFiles/server.dir/source/SharedMemory.cpp.o -c /workspaces/server/source/SharedMemory.cpp
-
-CMakeFiles/server.dir/source/SharedMemory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/SharedMemory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/SharedMemory.cpp > CMakeFiles/server.dir/source/SharedMemory.cpp.i
-
-CMakeFiles/server.dir/source/SharedMemory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/SharedMemory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/SharedMemory.cpp -o CMakeFiles/server.dir/source/SharedMemory.cpp.s
-
-CMakeFiles/server.dir/source/Storage.cpp.o: CMakeFiles/server.dir/flags.make
-CMakeFiles/server.dir/source/Storage.cpp.o: /workspaces/server/source/Storage.cpp
-CMakeFiles/server.dir/source/Storage.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/source/Storage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/Storage.cpp.o -MF CMakeFiles/server.dir/source/Storage.cpp.o.d -o CMakeFiles/server.dir/source/Storage.cpp.o -c /workspaces/server/source/Storage.cpp
-
-CMakeFiles/server.dir/source/Storage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/Storage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/Storage.cpp > CMakeFiles/server.dir/source/Storage.cpp.i
-
-CMakeFiles/server.dir/source/Storage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/Storage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/Storage.cpp -o CMakeFiles/server.dir/source/Storage.cpp.s
+CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/buffer/SimpleMemory.cpp -o CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.s
 
 CMakeFiles/server.dir/source/exceptions/exception.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/source/exceptions/exception.cpp.o: /workspaces/server/source/exceptions/exception.cpp
 CMakeFiles/server.dir/source/exceptions/exception.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/source/exceptions/exception.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/server.dir/source/exceptions/exception.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/exceptions/exception.cpp.o -MF CMakeFiles/server.dir/source/exceptions/exception.cpp.o.d -o CMakeFiles/server.dir/source/exceptions/exception.cpp.o -c /workspaces/server/source/exceptions/exception.cpp
 
 CMakeFiles/server.dir/source/exceptions/exception.cpp.i: cmake_force
@@ -142,7 +114,7 @@ CMakeFiles/server.dir/source/exceptions/exception.cpp.s: cmake_force
 CMakeFiles/server.dir/source/main.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/source/main.cpp.o: /workspaces/server/source/main.cpp
 CMakeFiles/server.dir/source/main.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/source/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/source/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/main.cpp.o -MF CMakeFiles/server.dir/source/main.cpp.o.d -o CMakeFiles/server.dir/source/main.cpp.o -c /workspaces/server/source/main.cpp
 
 CMakeFiles/server.dir/source/main.cpp.i: cmake_force
@@ -152,6 +124,34 @@ CMakeFiles/server.dir/source/main.cpp.i: cmake_force
 CMakeFiles/server.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/main.cpp -o CMakeFiles/server.dir/source/main.cpp.s
+
+CMakeFiles/server.dir/source/server/IfcClient.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/source/server/IfcClient.cpp.o: /workspaces/server/source/server/IfcClient.cpp
+CMakeFiles/server.dir/source/server/IfcClient.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/source/server/IfcClient.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/server/IfcClient.cpp.o -MF CMakeFiles/server.dir/source/server/IfcClient.cpp.o.d -o CMakeFiles/server.dir/source/server/IfcClient.cpp.o -c /workspaces/server/source/server/IfcClient.cpp
+
+CMakeFiles/server.dir/source/server/IfcClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/server/IfcClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/server/IfcClient.cpp > CMakeFiles/server.dir/source/server/IfcClient.cpp.i
+
+CMakeFiles/server.dir/source/server/IfcClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/server/IfcClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/server/IfcClient.cpp -o CMakeFiles/server.dir/source/server/IfcClient.cpp.s
+
+CMakeFiles/server.dir/source/server/IfcStorage.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/source/server/IfcStorage.cpp.o: /workspaces/server/source/server/IfcStorage.cpp
+CMakeFiles/server.dir/source/server/IfcStorage.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/source/server/IfcStorage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/server/IfcStorage.cpp.o -MF CMakeFiles/server.dir/source/server/IfcStorage.cpp.o.d -o CMakeFiles/server.dir/source/server/IfcStorage.cpp.o -c /workspaces/server/source/server/IfcStorage.cpp
+
+CMakeFiles/server.dir/source/server/IfcStorage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/server/IfcStorage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/server/IfcStorage.cpp > CMakeFiles/server.dir/source/server/IfcStorage.cpp.i
+
+CMakeFiles/server.dir/source/server/IfcStorage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/server/IfcStorage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/server/IfcStorage.cpp -o CMakeFiles/server.dir/source/server/IfcStorage.cpp.s
 
 CMakeFiles/server.dir/source/server/NetClient.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/source/server/NetClient.cpp.o: /workspaces/server/source/server/NetClient.cpp
@@ -167,29 +167,61 @@ CMakeFiles/server.dir/source/server/NetClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/server/NetClient.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/server/NetClient.cpp -o CMakeFiles/server.dir/source/server/NetClient.cpp.s
 
+CMakeFiles/server.dir/source/server/ServerManager.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/source/server/ServerManager.cpp.o: /workspaces/server/source/server/ServerManager.cpp
+CMakeFiles/server.dir/source/server/ServerManager.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/source/server/ServerManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/server/ServerManager.cpp.o -MF CMakeFiles/server.dir/source/server/ServerManager.cpp.o.d -o CMakeFiles/server.dir/source/server/ServerManager.cpp.o -c /workspaces/server/source/server/ServerManager.cpp
+
+CMakeFiles/server.dir/source/server/ServerManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/server/ServerManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/server/ServerManager.cpp > CMakeFiles/server.dir/source/server/ServerManager.cpp.i
+
+CMakeFiles/server.dir/source/server/ServerManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/server/ServerManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/server/ServerManager.cpp -o CMakeFiles/server.dir/source/server/ServerManager.cpp.s
+
+CMakeFiles/server.dir/source/server/Storage.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/source/server/Storage.cpp.o: /workspaces/server/source/server/Storage.cpp
+CMakeFiles/server.dir/source/server/Storage.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/source/server/Storage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/source/server/Storage.cpp.o -MF CMakeFiles/server.dir/source/server/Storage.cpp.o.d -o CMakeFiles/server.dir/source/server/Storage.cpp.o -c /workspaces/server/source/server/Storage.cpp
+
+CMakeFiles/server.dir/source/server/Storage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/server.dir/source/server/Storage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/server/source/server/Storage.cpp > CMakeFiles/server.dir/source/server/Storage.cpp.i
+
+CMakeFiles/server.dir/source/server/Storage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/server.dir/source/server/Storage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/server/source/server/Storage.cpp -o CMakeFiles/server.dir/source/server/Storage.cpp.s
+
 # Object files for target server
 server_OBJECTS = \
-"CMakeFiles/server.dir/source/IfcBuffer.cpp.o" \
-"CMakeFiles/server.dir/source/IfcStorage.cpp.o" \
-"CMakeFiles/server.dir/source/SharedMemory.cpp.o" \
-"CMakeFiles/server.dir/source/Storage.cpp.o" \
+"CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o" \
+"CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o" \
 "CMakeFiles/server.dir/source/exceptions/exception.cpp.o" \
 "CMakeFiles/server.dir/source/main.cpp.o" \
-"CMakeFiles/server.dir/source/server/NetClient.cpp.o"
+"CMakeFiles/server.dir/source/server/IfcClient.cpp.o" \
+"CMakeFiles/server.dir/source/server/IfcStorage.cpp.o" \
+"CMakeFiles/server.dir/source/server/NetClient.cpp.o" \
+"CMakeFiles/server.dir/source/server/ServerManager.cpp.o" \
+"CMakeFiles/server.dir/source/server/Storage.cpp.o"
 
 # External object files for target server
 server_EXTERNAL_OBJECTS =
 
-server: CMakeFiles/server.dir/source/IfcBuffer.cpp.o
-server: CMakeFiles/server.dir/source/IfcStorage.cpp.o
-server: CMakeFiles/server.dir/source/SharedMemory.cpp.o
-server: CMakeFiles/server.dir/source/Storage.cpp.o
+server: CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o
+server: CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o
 server: CMakeFiles/server.dir/source/exceptions/exception.cpp.o
 server: CMakeFiles/server.dir/source/main.cpp.o
+server: CMakeFiles/server.dir/source/server/IfcClient.cpp.o
+server: CMakeFiles/server.dir/source/server/IfcStorage.cpp.o
 server: CMakeFiles/server.dir/source/server/NetClient.cpp.o
+server: CMakeFiles/server.dir/source/server/ServerManager.cpp.o
+server: CMakeFiles/server.dir/source/server/Storage.cpp.o
 server: CMakeFiles/server.dir/build.make
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

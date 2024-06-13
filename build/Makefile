@@ -129,101 +129,53 @@ server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
-source/IfcBuffer.o: source/IfcBuffer.cpp.o
-.PHONY : source/IfcBuffer.o
+source/buffer/IfcBuffer.o: source/buffer/IfcBuffer.cpp.o
+.PHONY : source/buffer/IfcBuffer.o
 
 # target to build an object file
-source/IfcBuffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/IfcBuffer.cpp.o
-.PHONY : source/IfcBuffer.cpp.o
+source/buffer/IfcBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.o
+.PHONY : source/buffer/IfcBuffer.cpp.o
 
-source/IfcBuffer.i: source/IfcBuffer.cpp.i
-.PHONY : source/IfcBuffer.i
+source/buffer/IfcBuffer.i: source/buffer/IfcBuffer.cpp.i
+.PHONY : source/buffer/IfcBuffer.i
 
 # target to preprocess a source file
-source/IfcBuffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/IfcBuffer.cpp.i
-.PHONY : source/IfcBuffer.cpp.i
+source/buffer/IfcBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.i
+.PHONY : source/buffer/IfcBuffer.cpp.i
 
-source/IfcBuffer.s: source/IfcBuffer.cpp.s
-.PHONY : source/IfcBuffer.s
+source/buffer/IfcBuffer.s: source/buffer/IfcBuffer.cpp.s
+.PHONY : source/buffer/IfcBuffer.s
 
 # target to generate assembly for a file
-source/IfcBuffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/IfcBuffer.cpp.s
-.PHONY : source/IfcBuffer.cpp.s
+source/buffer/IfcBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/buffer/IfcBuffer.cpp.s
+.PHONY : source/buffer/IfcBuffer.cpp.s
 
-source/IfcStorage.o: source/IfcStorage.cpp.o
-.PHONY : source/IfcStorage.o
+source/buffer/SimpleMemory.o: source/buffer/SimpleMemory.cpp.o
+.PHONY : source/buffer/SimpleMemory.o
 
 # target to build an object file
-source/IfcStorage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/IfcStorage.cpp.o
-.PHONY : source/IfcStorage.cpp.o
+source/buffer/SimpleMemory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.o
+.PHONY : source/buffer/SimpleMemory.cpp.o
 
-source/IfcStorage.i: source/IfcStorage.cpp.i
-.PHONY : source/IfcStorage.i
-
-# target to preprocess a source file
-source/IfcStorage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/IfcStorage.cpp.i
-.PHONY : source/IfcStorage.cpp.i
-
-source/IfcStorage.s: source/IfcStorage.cpp.s
-.PHONY : source/IfcStorage.s
-
-# target to generate assembly for a file
-source/IfcStorage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/IfcStorage.cpp.s
-.PHONY : source/IfcStorage.cpp.s
-
-source/SharedMemory.o: source/SharedMemory.cpp.o
-.PHONY : source/SharedMemory.o
-
-# target to build an object file
-source/SharedMemory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/SharedMemory.cpp.o
-.PHONY : source/SharedMemory.cpp.o
-
-source/SharedMemory.i: source/SharedMemory.cpp.i
-.PHONY : source/SharedMemory.i
+source/buffer/SimpleMemory.i: source/buffer/SimpleMemory.cpp.i
+.PHONY : source/buffer/SimpleMemory.i
 
 # target to preprocess a source file
-source/SharedMemory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/SharedMemory.cpp.i
-.PHONY : source/SharedMemory.cpp.i
+source/buffer/SimpleMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.i
+.PHONY : source/buffer/SimpleMemory.cpp.i
 
-source/SharedMemory.s: source/SharedMemory.cpp.s
-.PHONY : source/SharedMemory.s
-
-# target to generate assembly for a file
-source/SharedMemory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/SharedMemory.cpp.s
-.PHONY : source/SharedMemory.cpp.s
-
-source/Storage.o: source/Storage.cpp.o
-.PHONY : source/Storage.o
-
-# target to build an object file
-source/Storage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/Storage.cpp.o
-.PHONY : source/Storage.cpp.o
-
-source/Storage.i: source/Storage.cpp.i
-.PHONY : source/Storage.i
-
-# target to preprocess a source file
-source/Storage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/Storage.cpp.i
-.PHONY : source/Storage.cpp.i
-
-source/Storage.s: source/Storage.cpp.s
-.PHONY : source/Storage.s
+source/buffer/SimpleMemory.s: source/buffer/SimpleMemory.cpp.s
+.PHONY : source/buffer/SimpleMemory.s
 
 # target to generate assembly for a file
-source/Storage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/Storage.cpp.s
-.PHONY : source/Storage.cpp.s
+source/buffer/SimpleMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/buffer/SimpleMemory.cpp.s
+.PHONY : source/buffer/SimpleMemory.cpp.s
 
 source/exceptions/exception.o: source/exceptions/exception.cpp.o
 .PHONY : source/exceptions/exception.o
@@ -273,6 +225,54 @@ source/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/main.cpp.s
 .PHONY : source/main.cpp.s
 
+source/server/IfcClient.o: source/server/IfcClient.cpp.o
+.PHONY : source/server/IfcClient.o
+
+# target to build an object file
+source/server/IfcClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/IfcClient.cpp.o
+.PHONY : source/server/IfcClient.cpp.o
+
+source/server/IfcClient.i: source/server/IfcClient.cpp.i
+.PHONY : source/server/IfcClient.i
+
+# target to preprocess a source file
+source/server/IfcClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/IfcClient.cpp.i
+.PHONY : source/server/IfcClient.cpp.i
+
+source/server/IfcClient.s: source/server/IfcClient.cpp.s
+.PHONY : source/server/IfcClient.s
+
+# target to generate assembly for a file
+source/server/IfcClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/IfcClient.cpp.s
+.PHONY : source/server/IfcClient.cpp.s
+
+source/server/IfcStorage.o: source/server/IfcStorage.cpp.o
+.PHONY : source/server/IfcStorage.o
+
+# target to build an object file
+source/server/IfcStorage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/IfcStorage.cpp.o
+.PHONY : source/server/IfcStorage.cpp.o
+
+source/server/IfcStorage.i: source/server/IfcStorage.cpp.i
+.PHONY : source/server/IfcStorage.i
+
+# target to preprocess a source file
+source/server/IfcStorage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/IfcStorage.cpp.i
+.PHONY : source/server/IfcStorage.cpp.i
+
+source/server/IfcStorage.s: source/server/IfcStorage.cpp.s
+.PHONY : source/server/IfcStorage.s
+
+# target to generate assembly for a file
+source/server/IfcStorage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/IfcStorage.cpp.s
+.PHONY : source/server/IfcStorage.cpp.s
+
 source/server/NetClient.o: source/server/NetClient.cpp.o
 .PHONY : source/server/NetClient.o
 
@@ -297,6 +297,54 @@ source/server/NetClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/NetClient.cpp.s
 .PHONY : source/server/NetClient.cpp.s
 
+source/server/ServerManager.o: source/server/ServerManager.cpp.o
+.PHONY : source/server/ServerManager.o
+
+# target to build an object file
+source/server/ServerManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/ServerManager.cpp.o
+.PHONY : source/server/ServerManager.cpp.o
+
+source/server/ServerManager.i: source/server/ServerManager.cpp.i
+.PHONY : source/server/ServerManager.i
+
+# target to preprocess a source file
+source/server/ServerManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/ServerManager.cpp.i
+.PHONY : source/server/ServerManager.cpp.i
+
+source/server/ServerManager.s: source/server/ServerManager.cpp.s
+.PHONY : source/server/ServerManager.s
+
+# target to generate assembly for a file
+source/server/ServerManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/ServerManager.cpp.s
+.PHONY : source/server/ServerManager.cpp.s
+
+source/server/Storage.o: source/server/Storage.cpp.o
+.PHONY : source/server/Storage.o
+
+# target to build an object file
+source/server/Storage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Storage.cpp.o
+.PHONY : source/server/Storage.cpp.o
+
+source/server/Storage.i: source/server/Storage.cpp.i
+.PHONY : source/server/Storage.i
+
+# target to preprocess a source file
+source/server/Storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Storage.cpp.i
+.PHONY : source/server/Storage.cpp.i
+
+source/server/Storage.s: source/server/Storage.cpp.s
+.PHONY : source/server/Storage.s
+
+# target to generate assembly for a file
+source/server/Storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Storage.cpp.s
+.PHONY : source/server/Storage.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,27 +354,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... server"
-	@echo "... source/IfcBuffer.o"
-	@echo "... source/IfcBuffer.i"
-	@echo "... source/IfcBuffer.s"
-	@echo "... source/IfcStorage.o"
-	@echo "... source/IfcStorage.i"
-	@echo "... source/IfcStorage.s"
-	@echo "... source/SharedMemory.o"
-	@echo "... source/SharedMemory.i"
-	@echo "... source/SharedMemory.s"
-	@echo "... source/Storage.o"
-	@echo "... source/Storage.i"
-	@echo "... source/Storage.s"
+	@echo "... source/buffer/IfcBuffer.o"
+	@echo "... source/buffer/IfcBuffer.i"
+	@echo "... source/buffer/IfcBuffer.s"
+	@echo "... source/buffer/SimpleMemory.o"
+	@echo "... source/buffer/SimpleMemory.i"
+	@echo "... source/buffer/SimpleMemory.s"
 	@echo "... source/exceptions/exception.o"
 	@echo "... source/exceptions/exception.i"
 	@echo "... source/exceptions/exception.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"
+	@echo "... source/server/IfcClient.o"
+	@echo "... source/server/IfcClient.i"
+	@echo "... source/server/IfcClient.s"
+	@echo "... source/server/IfcStorage.o"
+	@echo "... source/server/IfcStorage.i"
+	@echo "... source/server/IfcStorage.s"
 	@echo "... source/server/NetClient.o"
 	@echo "... source/server/NetClient.i"
 	@echo "... source/server/NetClient.s"
+	@echo "... source/server/ServerManager.o"
+	@echo "... source/server/ServerManager.i"
+	@echo "... source/server/ServerManager.s"
+	@echo "... source/server/Storage.o"
+	@echo "... source/server/Storage.i"
+	@echo "... source/server/Storage.s"
 .PHONY : help
 
 

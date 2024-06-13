@@ -1111,6 +1111,21 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/boost/asio/writable_pipe.hpp \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp \
- /workspaces/server/source/IfcStorage.hpp \
- /workspaces/server/source/IfcBuffer.hpp \
- /workspaces/server/source/Storage.hpp
+ /workspaces/server/source/server/IfcStorage.hpp \
+ /workspaces/server/source/buffer/IfcBuffer.hpp \
+ /workspaces/server/source/server/NetClient.hpp \
+ /workspaces/server/source/server/IfcClient.hpp \
+ /workspaces/server/source/server/QueuedClient.hpp \
+ /usr/include/c++/13.2.1/deque /usr/include/c++/13.2.1/bits/stl_deque.h \
+ /usr/include/c++/13.2.1/bits/deque.tcc \
+ /workspaces/server/source/server/ServerManager.hpp \
+ /workspaces/server/source/server/NetClient.hpp \
+ /usr/include/c++/13.2.1/fstream \
+ /usr/include/c++/13.2.1/x86_64-alpine-linux-musl/bits/basic_file.h \
+ /usr/include/c++/13.2.1/x86_64-alpine-linux-musl/bits/c++io.h \
+ /usr/include/c++/13.2.1/bits/fstream.tcc /usr/include/c++/13.2.1/map \
+ /usr/include/c++/13.2.1/bits/stl_tree.h \
+ /usr/include/c++/13.2.1/bits/stl_map.h \
+ /usr/include/c++/13.2.1/bits/stl_multimap.h \
+ /workspaces/server/source/server/Storage.hpp \
+ /workspaces/server/source/server/IfcStorage.hpp

@@ -4,8 +4,10 @@
 #include <iostream>
 #include <thread>
 
-#include "IfcStorage.hpp"
-#include "Storage.hpp"
+#include "server/IfcStorage.hpp"
+#include "server/NetClient.hpp"
+#include "server/ServerManager.hpp"
+#include "server/Storage.hpp"
 
 #define IPADDRESS "127.0.0.1"
 #define UDP_PORT 3000
@@ -27,9 +29,25 @@ int main(int argc, char **argv) {
 
   */
 
+  /*
   std::unique_ptr<IStorage> ptrStorage = std::make_unique<Storage>();
-  auto message = ptrStorage->getMessage();
-  std::cout << message->data() << std::endl;
+  auto message = ptrStorage->getMessage(5u);
+  std::cout << (const char*)message->data() << std::endl;
+  */
+
+  /*
+    NetClient client{"First client", nullptr};
+    client.start();
+    client.publish(42u);
+    client.publish(41u);
+    client.publish(40u);
+    client.publish(39u);
+    client.publish(38u);
+    std::this_thread::sleep_for(std::chrono::microseconds(10000));
+    client.stop();
+    */
+  ServerManager manager;
+  manager.readConfiguration();
 
   /*
     logger::fatal("Fatal {}", "...");

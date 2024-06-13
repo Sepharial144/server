@@ -1,8 +1,7 @@
-CMakeFiles/server.dir/source/server/NetClient.cpp.o: \
- /workspaces/server/source/server/NetClient.cpp \
+CMakeFiles/server.dir/source/server/IfcStorage.cpp.o: \
+ /workspaces/server/source/server/IfcStorage.cpp \
  /usr/include/stdc-predef.h \
- /workspaces/server/source/server/NetClient.hpp \
- /workspaces/server/source/server/IfcClient.hpp \
+ /workspaces/server/source/server/IfcStorage.hpp \
  /workspaces/server/source/buffer/IfcBuffer.hpp \
  /usr/include/c++/13.2.1/string \
  /usr/include/c++/13.2.1/bits/requires_hosted.h \
@@ -79,26 +78,9 @@ CMakeFiles/server.dir/source/server/NetClient.cpp.o: \
  /usr/include/c++/13.2.1/bits/uses_allocator.h \
  /usr/include/c++/13.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/13.2.1/tuple /usr/include/c++/13.2.1/bits/ranges_util.h \
- /usr/include/c++/13.2.1/functional \
- /usr/include/c++/13.2.1/bits/std_function.h \
- /usr/include/c++/13.2.1/typeinfo /usr/include/c++/13.2.1/unordered_map \
- /usr/include/c++/13.2.1/bits/unordered_map.h \
- /usr/include/c++/13.2.1/bits/hashtable.h \
- /usr/include/c++/13.2.1/bits/hashtable_policy.h \
- /usr/include/c++/13.2.1/ext/aligned_buffer.h \
- /usr/include/c++/13.2.1/bits/enable_special_members.h \
- /usr/include/c++/13.2.1/bits/node_handle.h \
- /usr/include/c++/13.2.1/bits/erase_if.h /usr/include/c++/13.2.1/vector \
- /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/13.2.1/bits/stl_vector.h \
- /usr/include/c++/13.2.1/bits/stl_bvector.h \
- /usr/include/c++/13.2.1/bits/vector.tcc /usr/include/c++/13.2.1/array \
- /usr/include/c++/13.2.1/bits/stl_algo.h \
- /usr/include/c++/13.2.1/bits/algorithmfwd.h \
- /usr/include/c++/13.2.1/bits/stl_heap.h \
- /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
- /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/13.2.1/memory \
+ /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13.2.1/bits/align.h /usr/include/stdint.h \
  /usr/include/bits/stdint.h /usr/include/c++/13.2.1/bits/unique_ptr.h \
@@ -106,6 +88,7 @@ CMakeFiles/server.dir/source/server/NetClient.cpp.o: \
  /usr/include/c++/13.2.1/exception \
  /usr/include/c++/13.2.1/bits/exception_ptr.h \
  /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13.2.1/typeinfo \
  /usr/include/c++/13.2.1/bits/nested_exception.h \
  /usr/include/c++/13.2.1/bits/ios_base.h \
  /usr/include/c++/13.2.1/ext/atomicity.h \
@@ -131,6 +114,7 @@ CMakeFiles/server.dir/source/server/NetClient.cpp.o: \
  /usr/include/c++/13.2.1/bits/shared_ptr.h \
  /usr/include/c++/13.2.1/bits/shared_ptr_base.h \
  /usr/include/c++/13.2.1/bits/allocated_ptr.h \
+ /usr/include/c++/13.2.1/ext/aligned_buffer.h \
  /usr/include/c++/13.2.1/ext/concurrence.h \
  /usr/include/c++/13.2.1/bits/shared_ptr_atomic.h \
  /usr/include/c++/13.2.1/bits/atomic_base.h \
@@ -145,35 +129,4 @@ CMakeFiles/server.dir/source/server/NetClient.cpp.o: \
  /usr/include/c++/13.2.1/bits/ranges_uninitialized.h \
  /usr/include/c++/13.2.1/bits/ranges_algobase.h \
  /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
- /usr/include/c++/13.2.1/pstl/execution_defs.h \
- /workspaces/server/source/server/QueuedClient.hpp \
- /usr/include/c++/13.2.1/deque /usr/include/c++/13.2.1/bits/stl_deque.h \
- /usr/include/c++/13.2.1/bits/deque.tcc /usr/include/c++/13.2.1/mutex \
- /usr/include/c++/13.2.1/bits/chrono.h /usr/include/c++/13.2.1/ratio \
- /usr/include/c++/13.2.1/cstdint /usr/include/c++/13.2.1/limits \
- /usr/include/c++/13.2.1/ctime \
- /usr/include/c++/13.2.1/bits/parse_numbers.h \
- /usr/include/c++/13.2.1/bits/unique_lock.h \
- /usr/include/c++/13.2.1/optional /usr/include/c++/13.2.1/iostream \
- /usr/include/c++/13.2.1/istream /usr/include/c++/13.2.1/bits/istream.tcc \
- /usr/include/c++/13.2.1/thread /usr/include/c++/13.2.1/stop_token \
- /usr/include/c++/13.2.1/atomic /usr/include/c++/13.2.1/bits/std_thread.h \
- /usr/include/c++/13.2.1/semaphore \
- /usr/include/c++/13.2.1/bits/semaphore_base.h \
- /usr/include/c++/13.2.1/bits/atomic_timed_wait.h \
- /usr/include/c++/13.2.1/bits/this_thread_sleep.h /usr/include/sys/time.h \
- /usr/include/fortify/sys/select.h /usr/include/sys/select.h \
- /usr/include/semaphore.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
- /usr/include/c++/13.2.1/chrono /usr/include/c++/13.2.1/sstream \
- /usr/include/c++/13.2.1/bits/sstream.tcc \
- /usr/include/c++/13.2.1/bits/chrono_io.h /usr/include/c++/13.2.1/iomanip \
- /usr/include/c++/13.2.1/locale \
- /usr/include/c++/13.2.1/bits/locale_facets_nonio.h \
- /usr/include/c++/13.2.1/x86_64-alpine-linux-musl/bits/time_members.h \
- /usr/include/c++/13.2.1/x86_64-alpine-linux-musl/bits/messages_members.h \
- /usr/include/c++/13.2.1/bits/codecvt.h \
- /usr/include/c++/13.2.1/bits/locale_facets_nonio.tcc \
- /usr/include/c++/13.2.1/bits/locale_conv.h \
- /usr/include/c++/13.2.1/bits/quoted_string.h \
- /usr/include/c++/13.2.1/format /usr/include/c++/13.2.1/charconv \
- /usr/include/c++/13.2.1/span /usr/include/c++/13.2.1/variant
+ /usr/include/c++/13.2.1/pstl/execution_defs.h
