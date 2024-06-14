@@ -2,6 +2,7 @@
 #define _SERVER_MANAGER_HPP_
 
 #include "IfcClient.hpp"
+#include "IfcConnection.hpp"
 #include "NetClient.hpp"
 
 #include <fstream>
@@ -10,22 +11,23 @@
 
 class ServerManager {
 public:
-  explicit ServerManager();
-  virtual ~ServerManager();
+    explicit ServerManager();
+    virtual ~ServerManager();
 
-  void readConfiguration();
-  void initialization();
-  void publish(std::string &source);
-
-private:
-  struct Configuration {
-    std::string source;
-    std::string message;
-  };
+    void readConfiguration();
+    void initialization();
+    void routeConnection(IConnection& connection);
+    void publish(std::string& source);
 
 private:
-  std::vector<Configuration> m_confArray;
-  std::map<size_t, NetClient> m_mapClients;
+    struct Configuration {
+        std::string source;
+        std::string message;
+    };
+
+private:
+    std::vector<Configuration> m_confArray;
+    std::map<size_t, NetClient> m_mapClients;
 };
 
 #endif // !_SERVER_MANAGER_HPP_

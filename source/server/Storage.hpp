@@ -8,9 +8,9 @@
 
 class Storage : public IStorage {
 public:
-  explicit Storage();
-  virtual ~Storage();
-  auto getMessage(size_t hash) -> std::shared_ptr<IBuffer> override;
+    explicit Storage();
+    virtual ~Storage();
+    auto getMessage(size_t hash) -> std::shared_ptr<IBuffer> override;
 };
 
 #endif // !_SERVER_STORAGE_HPP_

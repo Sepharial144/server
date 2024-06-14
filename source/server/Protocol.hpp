@@ -1,26 +1,17 @@
 #ifndef _NET_PROTOCOL_HPP_
 #define _NET_PROTOCOL_HPP_
 
-#include <cstdint>
+#define BUFFER_SIZE 4096
+#define ERROR_RAM '@'
+#define START_OF_TEXT static_cast<char>(2)
+#define END_OF_TEXT static_cast<char>(3)
 
 #pragma pack(push, 1)
-struct RtpHeader
-{   
+struct RtpHeader {
     uint64_t payload_len;
-    uint8_t[64] source;
-}
-#pragma pack(pop)
-
-class Protocol 
-{
-    public:
-        explicit Protocol() {};
-        virtual ~Protocol() {};
-
-        void serialize(std::string& source, std::string& data);
-    private:
+    bool isError;
+    uint8_t source[64];
 };
-
-void serialize(std::string& source, std::string& data);
+#pragma pack(pop)
 
 #endif // !_NET_PROTOCOL_HPP_

@@ -12,9 +12,14 @@ include(config.cmake)
 
 message(STATUS "Package libraries: ${PACKAGE_LIBRARIES}")
 
-file(GLOB_RECURSE SRC_FILES "source/*.hpp" "source/*.cpp")
+file(GLOB_RECURSE SRC_SERVER_FILES "source/*.hpp" "source/*.cpp")
+list(FILTER SRC_SERVER_FILES EXCLUDE REGEX ".client")
 
-add_executable(server ${SRC_FILES})
+#file(GLOB_RECURSE SRC_CLIENT_FILES "source/client/*.cpp")
+#list(FILTER SRC_CLIENT_FILES EXCLUDE REGEX ".server")
+
+add_executable(server ${SRC_SERVER_FILES})
+#add_executable(client ${SRC_CLIENT_FILES})
 
 target_include_directories(${PROJECT_NAME} PUBLIC 
     "${CMAKE_SOURCE_DIR}/source"

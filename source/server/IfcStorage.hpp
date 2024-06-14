@@ -8,10 +8,10 @@
 
 class IStorage {
 public:
-  explicit IStorage();
-  virtual ~IStorage();
+    explicit IStorage();
+    virtual ~IStorage();
 
-  virtual auto getMessage(size_t hash) -> std::shared_ptr<IBuffer> = 0;
+    virtual auto getMessage(size_t hash) -> std::shared_ptr<IBuffer> = 0;
 };
 
 #endif //! _STORAGE_INTERFACE_HPP_

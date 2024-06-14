@@ -1,0 +1,5 @@
+---
+BasedOnStyle: WebKit
+BinPackParameters: 'true'
+BinPackArguments: 'true'
+AlwaysBreakAfterReturnType: 'None'

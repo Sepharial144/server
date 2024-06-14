@@ -138,9 +138,8 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/c++/13.2.1/bits/this_thread_sleep.h /usr/include/sys/time.h \
  /usr/include/fortify/sys/select.h /usr/include/sys/select.h \
  /usr/include/semaphore.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
- /usr/include/boost/asio.hpp \
- /usr/include/boost/asio/any_completion_executor.hpp \
- /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \
+ /usr/include/boost/array.hpp /usr/include/boost/detail/workaround.hpp \
+ /usr/include/boost/config/workaround.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/detail/select_compiler_config.hpp \
  /usr/include/boost/config/compiler/gcc.hpp \
@@ -153,8 +152,31 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/boost/config/detail/suffix.hpp \
  /usr/include/boost/config/helper_macros.hpp \
  /usr/include/boost/config/detail/cxx_composite.hpp \
- /usr/include/boost/version.hpp /usr/include/linux/version.h \
- /usr/include/boost/asio/execution.hpp \
+ /usr/include/c++/13.2.1/iterator \
+ /usr/include/c++/13.2.1/bits/stream_iterator.h \
+ /usr/include/boost/assert.hpp /usr/include/assert.h \
+ /usr/include/boost/core/swap.hpp /usr/include/boost/core/enable_if.hpp \
+ /usr/include/c++/13.2.1/utility \
+ /usr/include/c++/13.2.1/bits/stl_relops.h \
+ /usr/include/boost/static_assert.hpp \
+ /usr/include/boost/throw_exception.hpp \
+ /usr/include/boost/exception/exception.hpp \
+ /usr/include/boost/assert/source_location.hpp \
+ /usr/include/boost/current_function.hpp /usr/include/boost/cstdint.hpp \
+ /usr/include/c++/13.2.1/source_location \
+ /usr/include/c++/13.2.1/algorithm \
+ /usr/include/c++/13.2.1/bits/stl_algo.h \
+ /usr/include/c++/13.2.1/bits/algorithmfwd.h \
+ /usr/include/c++/13.2.1/bits/stl_heap.h \
+ /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
+ /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/13.2.1/bits/ranges_algo.h \
+ /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13.2.1/pstl/execution_defs.h \
+ /usr/include/boost/asio.hpp \
+ /usr/include/boost/asio/any_completion_executor.hpp \
+ /usr/include/boost/asio/detail/config.hpp /usr/include/boost/version.hpp \
+ /usr/include/linux/version.h /usr/include/boost/asio/execution.hpp \
  /usr/include/boost/asio/execution/allocator.hpp \
  /usr/include/boost/asio/detail/type_traits.hpp \
  /usr/include/boost/asio/execution/executor.hpp \
@@ -168,7 +190,6 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/boost/asio/execution/detail/as_invocable.hpp \
  /usr/include/boost/asio/detail/atomic_count.hpp \
  /usr/include/boost/asio/detail/memory.hpp /usr/include/c++/13.2.1/memory \
- /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/13.2.1/bits/stl_uninitialized.h \
  /usr/include/c++/13.2.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13.2.1/bits/align.h \
@@ -181,16 +202,8 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/c++/13.2.1/backward/auto_ptr.h \
  /usr/include/c++/13.2.1/bits/ranges_uninitialized.h \
  /usr/include/c++/13.2.1/pstl/glue_memory_defs.h \
- /usr/include/c++/13.2.1/pstl/execution_defs.h \
  /usr/include/boost/asio/detail/cstdint.hpp \
  /usr/include/boost/asio/detail/throw_exception.hpp \
- /usr/include/boost/throw_exception.hpp \
- /usr/include/boost/exception/exception.hpp \
- /usr/include/boost/assert/source_location.hpp \
- /usr/include/boost/current_function.hpp \
- /usr/include/boost/config/workaround.hpp /usr/include/boost/cstdint.hpp \
- /usr/include/c++/13.2.1/source_location /usr/include/c++/13.2.1/utility \
- /usr/include/c++/13.2.1/bits/stl_relops.h \
  /usr/include/boost/asio/execution/receiver_invocation_error.hpp \
  /usr/include/boost/asio/execution/impl/receiver_invocation_error.ipp \
  /usr/include/boost/asio/execution/set_done.hpp \
@@ -223,8 +236,8 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/boost/asio/traits/query_static_constexpr_member.hpp \
  /usr/include/boost/asio/traits/static_query.hpp \
  /usr/include/boost/asio/execution/any_executor.hpp \
- /usr/include/boost/asio/detail/assert.hpp /usr/include/boost/assert.hpp \
- /usr/include/assert.h /usr/include/boost/asio/detail/cstddef.hpp \
+ /usr/include/boost/asio/detail/assert.hpp \
+ /usr/include/boost/asio/detail/cstddef.hpp \
  /usr/include/boost/asio/detail/executor_function.hpp \
  /usr/include/boost/asio/detail/handler_alloc_helpers.hpp \
  /usr/include/boost/asio/detail/noncopyable.hpp \
@@ -251,10 +264,6 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/c++/13.2.1/bits/stl_vector.h \
  /usr/include/c++/13.2.1/bits/stl_bvector.h \
  /usr/include/c++/13.2.1/bits/vector.tcc \
- /usr/include/c++/13.2.1/bits/stl_algo.h \
- /usr/include/c++/13.2.1/bits/algorithmfwd.h \
- /usr/include/c++/13.2.1/bits/stl_heap.h \
- /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
  /usr/include/boost/asio/handler_alloc_hook.hpp \
  /usr/include/boost/asio/impl/handler_alloc_hook.ipp \
  /usr/include/boost/asio/detail/handler_invoke_helpers.hpp \
@@ -453,9 +462,6 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/boost/asio/detail/array_fwd.hpp \
  /usr/include/boost/asio/detail/string_view.hpp \
  /usr/include/boost/asio/is_contiguous_iterator.hpp \
- /usr/include/c++/13.2.1/iterator \
- /usr/include/c++/13.2.1/bits/stream_iterator.h \
- /usr/include/boost/detail/workaround.hpp \
  /usr/include/boost/asio/detail/is_buffer_sequence.hpp \
  /usr/include/boost/asio/detail/buffer_sequence_adapter.hpp \
  /usr/include/boost/asio/registered_buffer.hpp \
@@ -508,9 +514,6 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/boost/smart_ptr/detail/yield_k.hpp \
  /usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp \
  /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp \
- /usr/include/c++/13.2.1/algorithm \
- /usr/include/c++/13.2.1/bits/ranges_algo.h \
- /usr/include/c++/13.2.1/pstl/glue_algorithm_defs.h \
  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
  /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
  /usr/include/boost/smart_ptr/detail/local_counted_base.hpp \
@@ -533,10 +536,9 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/c++/13.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/13.2.1/tr1/riemann_zeta.tcc \
  /usr/include/boost/date_time/time_duration.hpp \
- /usr/include/boost/core/enable_if.hpp \
  /usr/include/boost/date_time/special_defs.hpp \
  /usr/include/boost/date_time/time_defs.hpp \
- /usr/include/boost/operators.hpp /usr/include/boost/static_assert.hpp \
+ /usr/include/boost/operators.hpp \
  /usr/include/boost/type_traits/is_integral.hpp \
  /usr/include/boost/type_traits/integral_constant.hpp \
  /usr/include/boost/date_time/time_resolution_traits.hpp \
@@ -1111,13 +1113,32 @@ CMakeFiles/server.dir/source/main.cpp.o: \
  /usr/include/boost/asio/writable_pipe.hpp \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp \
+ /usr/include/boost/bind/bind.hpp \
+ /usr/include/boost/bind/detail/requires_cxx11.hpp \
+ /usr/include/boost/bind/mem_fn.hpp /usr/include/boost/get_pointer.hpp \
+ /usr/include/boost/config/no_tr1/memory.hpp \
+ /usr/include/boost/bind/mem_fn_template.hpp \
+ /usr/include/boost/bind/mem_fn_cc.hpp \
+ /usr/include/boost/bind/detail/result_traits.hpp \
+ /usr/include/boost/core/ref.hpp \
+ /usr/include/boost/bind/std_placeholders.hpp \
+ /usr/include/boost/visit_each.hpp \
+ /usr/include/boost/bind/detail/is_same.hpp \
+ /usr/include/boost/bind/storage.hpp /usr/include/boost/bind/bind_cc.hpp \
+ /usr/include/boost/bind/bind_mf_cc.hpp \
+ /usr/include/boost/bind/bind_mf2_cc.hpp \
+ /usr/include/boost/bind/placeholders.hpp \
  /workspaces/server/source/server/IfcStorage.hpp \
  /workspaces/server/source/buffer/IfcBuffer.hpp \
  /workspaces/server/source/server/NetClient.hpp \
  /workspaces/server/source/server/IfcClient.hpp \
+ /workspaces/server/source/server/IfcConnection.hpp \
+ /workspaces/server/source/server/Response.hpp \
+ /workspaces/server/source/server/Protocol.hpp \
  /workspaces/server/source/server/QueuedClient.hpp \
  /usr/include/c++/13.2.1/deque /usr/include/c++/13.2.1/bits/stl_deque.h \
  /usr/include/c++/13.2.1/bits/deque.tcc \
+ /workspaces/server/source/server/Server.hpp \
  /workspaces/server/source/server/ServerManager.hpp \
  /workspaces/server/source/server/NetClient.hpp \
  /usr/include/c++/13.2.1/fstream \

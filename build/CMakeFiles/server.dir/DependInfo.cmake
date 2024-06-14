@@ -15,6 +15,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/workspaces/server/source/server/IfcClient.cpp" "CMakeFiles/server.dir/source/server/IfcClient.cpp.o" "gcc" "CMakeFiles/server.dir/source/server/IfcClient.cpp.o.d"
   "/workspaces/server/source/server/IfcStorage.cpp" "CMakeFiles/server.dir/source/server/IfcStorage.cpp.o" "gcc" "CMakeFiles/server.dir/source/server/IfcStorage.cpp.o.d"
   "/workspaces/server/source/server/NetClient.cpp" "CMakeFiles/server.dir/source/server/NetClient.cpp.o" "gcc" "CMakeFiles/server.dir/source/server/NetClient.cpp.o.d"
+  "/workspaces/server/source/server/Request.cpp" "CMakeFiles/server.dir/source/server/Request.cpp.o" "gcc" "CMakeFiles/server.dir/source/server/Request.cpp.o.d"
+  "/workspaces/server/source/server/Response.cpp" "CMakeFiles/server.dir/source/server/Response.cpp.o" "gcc" "CMakeFiles/server.dir/source/server/Response.cpp.o.d"
+  "/workspaces/server/source/server/Server.cpp" "CMakeFiles/server.dir/source/server/Server.cpp.o" "gcc" "CMakeFiles/server.dir/source/server/Server.cpp.o.d"
   "/workspaces/server/source/server/ServerManager.cpp" "CMakeFiles/server.dir/source/server/ServerManager.cpp.o" "gcc" "CMakeFiles/server.dir/source/server/ServerManager.cpp.o.d"
   "/workspaces/server/source/server/Storage.cpp" "CMakeFiles/server.dir/source/server/Storage.cpp.o" "gcc" "CMakeFiles/server.dir/source/server/Storage.cpp.o.d"
   )

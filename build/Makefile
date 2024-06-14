@@ -297,6 +297,78 @@ source/server/NetClient.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/NetClient.cpp.s
 .PHONY : source/server/NetClient.cpp.s
 
+source/server/Request.o: source/server/Request.cpp.o
+.PHONY : source/server/Request.o
+
+# target to build an object file
+source/server/Request.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Request.cpp.o
+.PHONY : source/server/Request.cpp.o
+
+source/server/Request.i: source/server/Request.cpp.i
+.PHONY : source/server/Request.i
+
+# target to preprocess a source file
+source/server/Request.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Request.cpp.i
+.PHONY : source/server/Request.cpp.i
+
+source/server/Request.s: source/server/Request.cpp.s
+.PHONY : source/server/Request.s
+
+# target to generate assembly for a file
+source/server/Request.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Request.cpp.s
+.PHONY : source/server/Request.cpp.s
+
+source/server/Response.o: source/server/Response.cpp.o
+.PHONY : source/server/Response.o
+
+# target to build an object file
+source/server/Response.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Response.cpp.o
+.PHONY : source/server/Response.cpp.o
+
+source/server/Response.i: source/server/Response.cpp.i
+.PHONY : source/server/Response.i
+
+# target to preprocess a source file
+source/server/Response.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Response.cpp.i
+.PHONY : source/server/Response.cpp.i
+
+source/server/Response.s: source/server/Response.cpp.s
+.PHONY : source/server/Response.s
+
+# target to generate assembly for a file
+source/server/Response.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Response.cpp.s
+.PHONY : source/server/Response.cpp.s
+
+source/server/Server.o: source/server/Server.cpp.o
+.PHONY : source/server/Server.o
+
+# target to build an object file
+source/server/Server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Server.cpp.o
+.PHONY : source/server/Server.cpp.o
+
+source/server/Server.i: source/server/Server.cpp.i
+.PHONY : source/server/Server.i
+
+# target to preprocess a source file
+source/server/Server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Server.cpp.i
+.PHONY : source/server/Server.cpp.i
+
+source/server/Server.s: source/server/Server.cpp.s
+.PHONY : source/server/Server.s
+
+# target to generate assembly for a file
+source/server/Server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/source/server/Server.cpp.s
+.PHONY : source/server/Server.cpp.s
+
 source/server/ServerManager.o: source/server/ServerManager.cpp.o
 .PHONY : source/server/ServerManager.o
 
@@ -375,6 +447,15 @@ help:
 	@echo "... source/server/NetClient.o"
 	@echo "... source/server/NetClient.i"
 	@echo "... source/server/NetClient.s"
+	@echo "... source/server/Request.o"
+	@echo "... source/server/Request.i"
+	@echo "... source/server/Request.s"
+	@echo "... source/server/Response.o"
+	@echo "... source/server/Response.i"
+	@echo "... source/server/Response.s"
+	@echo "... source/server/Server.o"
+	@echo "... source/server/Server.i"
+	@echo "... source/server/Server.s"
 	@echo "... source/server/ServerManager.o"
 	@echo "... source/server/ServerManager.i"
 	@echo "... source/server/ServerManager.s"
